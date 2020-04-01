@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Pycharm
+.idea/
+
+# Terraform
+zip/
+.build/
+*.zip
+*.tfstate
+*.tfstate.backup
+
