@@ -8,17 +8,6 @@ data "archive_file" "lambda_function_zip" {
   output_path = "../.build/lambda_function.zip"
 }
 
-//data "archive_file" "lambda_layer_zip" {
-//  type = "zip"
-//  source_dir = "../venv/lib"
-//  output_path = "../zip/libraries.zip"
-//}
-
-//data "external" "prepare_layer_zip" {
-//  program = ["bash", "${path.module}/build.sh"]
-//  working_dir = path.module
-//}
-
 data "null_data_source" "package_source" {
   inputs = {
     path = "${path.module}/../.build"

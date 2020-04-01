@@ -136,7 +136,7 @@ zip/
 .build/
 *.zip
 .terraform/
-*.tfvars
+*.tfvars*
 *.tfstate
 *.tfstate.backup
 
