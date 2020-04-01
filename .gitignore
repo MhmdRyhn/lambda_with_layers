@@ -135,6 +135,8 @@ dmypy.json
 zip/
 .build/
 *.zip
+.terraform/
+*.tfvars
 *.tfstate
 *.tfstate.backup
 
